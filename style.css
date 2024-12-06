@@ -1,17 +1,32 @@
-const avanca document.querySelectorAll('.btn-proximo');
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
 
-avanca.forEach(button => {
+   button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
 
-button.addEventListener('click', function(){
+.passo{
+display: none;
+}
 
-const atual document.querySelector('.ativo');
+.passo.ativo{
+    display: block;
+}
 
-const proximoPasso 'passo-' + this.getAttribute('data-
-
-proximo');
-
-atual.classList.remove('ativo');
-
-document.getElementById(proximoPasso).classList.add('ativo"); })
-
-})
+ main {
+    text-align: center;
+        max-width: 90%;
+    }
+    img{
+    max-width: 80%;
+ }
